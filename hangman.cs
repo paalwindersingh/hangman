@@ -43,41 +43,41 @@ namespace Hangman
 			            Console.WriteLine("|         0 ");
 			            Console.WriteLine("|        /|\\ ");
 			            Console.WriteLine("|        / \\ ");
-			            Console.WriteLine("|            ");
-			            Console.WriteLine("|            ");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
                     }
                     else if(chance==1){
 			            Console.WriteLine("__________   ");
 			            Console.WriteLine("|         |  ");
 			            Console.WriteLine("|         0  ");
 			            Console.WriteLine("|        /|\\ ");
-			            Console.WriteLine("|         ");
-			            Console.WriteLine("|            ");
-			            Console.WriteLine("|            ");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
                     }else if(chance == 2){
 			            Console.WriteLine("__________   ");
 			            Console.WriteLine("|         |  ");
 			            Console.WriteLine("|         0  ");
-			            Console.WriteLine("|         ");
-			            Console.WriteLine("|         ");
-			            Console.WriteLine("|            ");
-			            Console.WriteLine("|            ");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
                     }else if(chance == 3){
                     	Console.WriteLine("__________   ");
 			            Console.WriteLine("|         |  ");
-			            Console.WriteLine("|           ");
-			            Console.WriteLine("|         ");
-			            Console.WriteLine("|         ");
-			            Console.WriteLine("|            ");
-			            Console.WriteLine("|            ");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("|");
+			            Console.WriteLine("| ");
 		            }else if(chance == 4){
 		            	Console.WriteLine("__________   ");
-		                Console.WriteLine("|      ");
-		                Console.WriteLine("|           ");
-		                Console.WriteLine("|         ");
-		                Console.WriteLine("|         ");
-		                Console.WriteLine("|            ");
-		                Console.WriteLine("|            ");
+		                Console.WriteLine("|");
+		                Console.WriteLine("|");
+		                Console.WriteLine("|");
+		                Console.WriteLine("|");
+		                Console.WriteLine("|");
+		                Console.WriteLine("|");
 		            }
 		        }
             }

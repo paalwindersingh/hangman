@@ -17,13 +17,16 @@ namespace Hangman
             while (chance > 0 ) 
             {
                 string input = AskLetter();
-                lettersGuessed.Add(input);
+                    if(lettersGuessed.Contains(input)){
+                        Console.WriteLine("You have already entered this letter");
+                    }else{
+                        lettersGuessed.Add(input);
                     if (IsWord(word,lettersGuessed)) 
                     {
                         Console.WriteLine(word);
                         Console.WriteLine("Congratulations! you have found the word");
                         break;
-                    } 
+                    }
                     else if (word.Contains(input))
                     {
                         Console.WriteLine("Correct!");
@@ -80,6 +83,7 @@ namespace Hangman
 		                Console.WriteLine("|");
 		            }
 		        }
+            }
             }
             Console.ReadKey();
     }
